@@ -40,7 +40,7 @@
                     "options": ["Biotherm", "Acca", "ERBE", "SG79STHLM"]
                 }
             ],
-            "resultsCount": 25
+            "resultsCount": 34
         },
         {
             "title": "using a multiple categories with multiple options",
@@ -54,11 +54,6 @@
                     "category": "Produktart",
                     "canFilterOptions": true,
                     "options": ["Eau de Parfum", "Eau de Toilette"]
-                },
-                {
-                    "category": "Highlights",
-                    "canFilterOptions": false,
-                    "options": ["Sale", "Limitiert"]
                 }
             ],
             "resultsCount": 4
