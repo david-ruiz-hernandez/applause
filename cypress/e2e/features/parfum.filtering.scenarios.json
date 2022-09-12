@@ -48,22 +48,22 @@
                 {
                     "category": "Marke",
                     "canFilterOptions": true,
-                    "options": ["Biotherm", "Acca", "ERBE", "SG79STHLM"]
+                    "options": ["Biotherm", "Acca", "ERBE"]
                 },
                 {
                     "category": "Produktart",
                     "canFilterOptions": true,
-                    "options": ["Eau de Parfum", "Eau de Toilette", "Deodorant"]
+                    "options": ["Eau de Parfum", "Eau de Toilette"]
                 },
                 {
                     "category": "Geschenk für",
                     "canFilterOptions": true,
-                    "options": ["Dankeschön"]
+                    "options": ["Geburtstag"]
                 },
                 {
                     "category": "Für Wen",
                     "canFilterOptions": false,
-                    "options": ["Weiblich", "Unisex"]
+                    "options": ["Weiblich"]
                 },
                 {
                     "category": "Highlights",
@@ -71,7 +71,7 @@
                     "options": ["Sale", "Limitiert"]
                 }
             ],
-            "resultsCount": 3
+            "resultsCount": 4
         }
     ]
 }
