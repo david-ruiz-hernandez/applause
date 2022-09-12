@@ -58,7 +58,7 @@
                 {
                     "category": "Geschenk für",
                     "canFilterOptions": true,
-                    "options": ["Geburstag", "Dankeschön"]
+                    "options": ["Dankeschön"]
                 },
                 {
                     "category": "Für Wen",
