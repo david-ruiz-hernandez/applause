@@ -56,11 +56,6 @@
                     "options": ["Eau de Parfum", "Eau de Toilette"]
                 },
                 {
-                    "category": "Geschenk für",
-                    "canFilterOptions": true,
-                    "options": ["Geburtstag"]
-                },
-                {
                     "category": "Für Wen",
                     "canFilterOptions": false,
                     "options": ["Weiblich"]
