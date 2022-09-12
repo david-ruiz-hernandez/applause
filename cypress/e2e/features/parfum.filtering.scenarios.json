@@ -48,7 +48,7 @@
                 {
                     "category": "Marke",
                     "canFilterOptions": true,
-                    "options": ["Biotherm", "Acca", "ERBE", "SG79STHLM", "Adidas"]
+                    "options": ["Biotherm", "Acca", "ERBE", "SG79STHLM"]
                 },
                 {
                     "category": "Produktart",
