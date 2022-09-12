@@ -1,0 +1,44 @@
+{
+    "scenarios": [
+        {
+            "title": "using a single category and a single option",
+            "filters": [
+                {
+                    "category": "Marke",
+                    "canFilterOptions": true,
+                    "options": ["Biotherm"]
+                }
+            ],
+            "expectedFilters": [
+                {
+                    "category": "Produktart",
+                    "canFilterOptions": true,
+                    "options": [
+                        {
+                            "name": "Deodorant",
+                            "count": 2
+                        },
+                        {
+                            "name": "Duschgel",
+                            "count": 1
+                        }
+                    ]
+                },
+                {
+                    "category": "Highlights",
+                    "canFilterOptions": false,
+                    "options": [
+                        {
+                            "name": "Sale",
+                            "count": 10
+                        },
+                        {
+                            "name": "Limitiert",
+                            "count": 6
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

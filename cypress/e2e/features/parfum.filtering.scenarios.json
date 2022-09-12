@@ -1,0 +1,77 @@
+{
+    "scenarios": [
+        {
+            "title": "singling out a result",
+            "filters": [
+                {
+                    "category": "Marke",
+                    "canFilterOptions": true,
+                    "options": ["Biotherm"]
+                },
+                {
+                    "category": "Produktart",
+                    "canFilterOptions": true,
+                    "options": ["Geschenkset"]
+                },
+                {
+                    "category": "Geschenk für",
+                    "canFilterOptions": true,
+                    "options": ["Dankeschön"]
+                },
+                {
+                    "category": "Für Wen",
+                    "canFilterOptions": false,
+                    "options": ["Weiblich"]
+                },
+                {
+                    "category": "Highlights",
+                    "canFilterOptions": false,
+                    "options": ["Sale"]
+                }
+            ],
+            "resultsCount": 1
+        },
+        {
+            "title": "using a single category but multiple options",
+            "filters": [
+                {
+                    "category": "Marke",
+                    "canFilterOptions": true,
+                    "options": ["Biotherm", "Acca", "ERBE", "SG79STHLM"]
+                }
+            ],
+            "resultsCount": 34
+        },
+        {
+            "title": "using a multiple categories with multiple options",
+            "filters": [
+                {
+                    "category": "Marke",
+                    "canFilterOptions": true,
+                    "options": ["Biotherm", "Acca", "ERBE", "SG79STHLM", "Adidas"]
+                },
+                {
+                    "category": "Produktart",
+                    "canFilterOptions": true,
+                    "options": ["Eau de Parfum", "Eau de Toilette", "Deodorant"]
+                },
+                {
+                    "category": "Geschenk für",
+                    "canFilterOptions": true,
+                    "options": ["Geburstag", "Dankeschön"]
+                },
+                {
+                    "category": "Für Wen",
+                    "canFilterOptions": false,
+                    "options": ["Weiblich", "Unisex"]
+                },
+                {
+                    "category": "Highlights",
+                    "canFilterOptions": false,
+                    "options": ["Sale", "Limitiert"]
+                }
+            ],
+            "resultsCount": 3
+        }
+    ]
+}
