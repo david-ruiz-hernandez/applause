@@ -22,10 +22,13 @@ NOTE: The data for the Data Driven scenarios is contained into `cypress/e2e/feat
 ##### Why JSON?
 JSON is a very structured way to create data. It can be easily shared between Manual QAs and automation engineers. Most manual QAs are frequently exposed to JSON files / structures in their daily jobs when dealing with REST APIs.
 
+
 ## How to execute tests
-### Via console:
+First, we will need to install all the dependencies required by this project. To do so, sun `yarn install`.
+
+### Execite tests via console:
 `yarn test`
 
-### Via UI
+### Execute tessts via UI
 Cypress provides an intuitive UI to execute any test suite included in our project. Use `yarn cypress:open` to start said UI, select a browser when asked and finally click on the test suite 'parfumFilter.cy.js' to trigger the tests for this specific exercies. 
 
