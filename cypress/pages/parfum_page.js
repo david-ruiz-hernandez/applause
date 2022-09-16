@@ -40,6 +40,10 @@ class ParfumPage extends BasePage {
             .should('be.visible')
             .click();
     }
+
+    openProductDetails(productName) {
+        cy.get('.product-tile__brand-line').contains(productName).closest('a').click();
+    }
 }
 
 module.exports = ParfumPage;
