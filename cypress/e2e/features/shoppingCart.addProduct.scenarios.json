@@ -1,0 +1,35 @@
+{
+    "scenarios": [
+        {
+            "title": "add a single product",
+            "filters": [
+                {
+                    "category": "Marke",
+                    "canFilterOptions": true,
+                    "options": ["Biotherm"]
+                },
+                {
+                    "category": "Produktart",
+                    "canFilterOptions": true,
+                    "options": ["Geschenkset"]
+                },
+                {
+                    "category": "Geschenk für",
+                    "canFilterOptions": true,
+                    "options": ["Dankeschön"]
+                },
+                {
+                    "category": "Für Wen",
+                    "canFilterOptions": false,
+                    "options": ["Weiblich"]
+                },
+                {
+                    "category": "Highlights",
+                    "canFilterOptions": false,
+                    "options": ["Sale"]
+                }
+            ],
+            "productName": "Eau Fusion"
+        }
+    ]
+}
